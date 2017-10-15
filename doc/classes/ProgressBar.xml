@@ -4,7 +4,7 @@
 		General purpose progress bar.
 	</brief_description>
 	<description>
-		General purpose progress bar. Shows fill percentage from right to left.
+		General purpose progress bar. Represents progress as filling the bar from left to right.
 	</description>
 	<tutorials>
 	</tutorials>
@@ -28,6 +28,7 @@
 	</methods>
 	<members>
 		<member name="percent_visible" type="bool" setter="set_percent_visible" getter="is_percent_visible">
+			If [true] shows the progress in text as percentage in the middle of the [code]ProgressBar[/code]
 		</member>
 	</members>
 	<constants>
